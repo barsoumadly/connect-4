@@ -1,3 +1,6 @@
+:root {
+  --active-player-color: #eb3b5a;
+}
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +48,7 @@ ul p {
 }
 ul:hover {
   cursor: pointer;
-  background-color: #eb3b5a;
+  background-color: var(--active-player-color);
 }
 @media (max-width: 700px) {
   .board {
